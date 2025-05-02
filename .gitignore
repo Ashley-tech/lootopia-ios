@@ -1,0 +1,49 @@
+# Xcode
+DerivedData/
+build/
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcuserstate
+*.xcodeproj/xcshareddata/WorkspaceSettings.xcsettings
+
+# SwiftPM
+/.swiftpm/
+/Packages
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Archives
+*.xcarchive
+
+# App artifacts
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Simulator logs and data
+*.simruntime
+*.simdevicetype
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# SwiftUI Previews
+*.preview-thumbnails
+
+# User-specific settings
+*.xcuserdatad
+.idea/
+*.DS_Store
+
+# Environment files (optionnel)
+.env
